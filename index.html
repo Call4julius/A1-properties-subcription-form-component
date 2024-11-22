@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/script/app.js" defer></script>
+    <title>A1 Properties</title>
+  </head>
+  <body>
+    <main class="d-grid">
+      <header>
+        <nav class="main-nav">
+          <div class="company-details d-flex">
+            <img src="assets/images/logoV.svg" alt="" class="company-logo" />
+            <p class="company-title">A1 PROPERTIES</p>
+          </div>
+          <p class="company-address">
+            No. 7 Osondu Oshanugo street, Off Okpanam Road, Asaba, Delta State.
+          </p>
+        </nav>
+      </header>
+
+      <div class="form-wrapper d-grid">
+        <div>
+          <h1 class="form-title">subscription form</h1>
+          <p class="form-instructions">
+            Please complete all fields. Fields marked with asterik (<span
+              class="astericks"
+              >*</span
+            >) are compulsory. Tick boxes where appropriate.
+          </p>
+        </div>
+        <form action="#" method="post" class="form-group d-grid">
+          <fieldset class="d-flex">
+            <legend>Personal Details</legend>
+
+            <label for="title">Title<span class="astericks">*</span></label>
+            <select name="title" id="title">
+              <option value="" selected>Title</option>
+              <option value="Mr">Mr</option>
+              <option value="Mrs">Mrs</option>
+              <option value="Miss">Miss</option>
+            </select>
+
+            <label for="first-name"
+              >First Name<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              class="full-width"
+              placeholder="First Name"
+            />
+
+            <label for="last-name"
+              >Last Name<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              class="full-width"
+              placeholder="Last Name"
+            />
+
+            <label for="middle-name">Middle Name</label>
+            <input
+              type="text"
+              name="middle-name"
+              id="middle-name"
+              class="full-width"
+              placeholder="Middle Name"
+            />
+
+            <label for="spouse-name">Spouse Name</label>
+            <input
+              type="text"
+              name="spouse-name"
+              id="spouse-name"
+              class="full-width"
+              placeholder="Spouse Name"
+            />
+
+            <label for="Address">Address<span class="astericks">*</span></label>
+            <input
+              type="text"
+              name="Address"
+              id="Address"
+              class="full-width"
+              placeholder="Address"
+            />
+
+            <label for="date-of-birth"
+              >Date of birth<span class="astericks">*</span></label
+            >
+            <input
+              type="date"
+              name="date-of-birth"
+              id="date-of-birth"
+              class="full-width"
+            />
+
+            <label for="gender">Gender<span class="astericks">*</span></label>
+            <select name="gender" id="gender">
+              <option value="" selected>Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+
+            <label for="marital-status"
+              >Marital status<span class="astericks">*</span></label
+            >
+            <select name="marital-status" id="marital-status">
+              <option value="" selected>Marital Status</option>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+              <option value="Divorced">Divorced</option>
+              <option value="Widow">Widow</option>
+              <option value="Widower">Widower</option>
+            </select>
+
+            <label for="nationality"
+              >Nationality<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="nationality"
+              id="nationality"
+              class="full-width"
+              placeholder="Nationality"
+            />
+            <label for="occupation"
+              >Occupation<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="occupation"
+              id="occupation"
+              class="full-width"
+              placeholder="Occupation"
+            />
+            <label for="employer"
+              >Employer<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="employer"
+              id="employer"
+              class="full-width"
+              placeholder="Employer"
+            />
+            <label for="work-address"
+              >Work Address<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="work-address"
+              id="work-address"
+              class="full-width"
+              placeholder="Work Address"
+            />
+            <label for="country"
+              >Country of residence<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="country"
+              id="country"
+              class="full-width"
+              placeholder="Country of Residence"
+            />
+            <label for="language"
+              >Language spoken<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="language"
+              id="language"
+              class="full-width"
+              placeholder="Language Spoken"
+            />
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="full-width"
+              placeholder="Email Address"
+            />
+            <label for="mobile-phone"
+              >Mobile phone<span class="astericks">*</span></label
+            >
+            <input
+              type="number"
+              name="mobile-phone"
+              id="mobile-phone"
+              class="full-width"
+              placeholder="Mobile Phone"
+            />
+            <label for="alternate-phone">Alternate phone</label>
+            <input
+              type="number"
+              name="alternate-phone"
+              id="alternate-phone"
+              class="full-width"
+              placeholder="Alternate Phone"
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Interested in?</legend>
+            <div class="interest d-grid">
+              <div class="purpose d-grid">
+                <p>What is the purpose of purchasing the plot?</p>
+                <label for="commercial"
+                  >Commercial
+                  <input
+                    type="checkbox"
+                    name="commercial"
+                    id="commercial"
+                    value="Commercial"
+                /></label>
+                <label for="residential"
+                  >Residencial
+                  <input
+                    type="checkbox"
+                    name="residential"
+                    id="residential"
+                    value="Residencial"
+                /></label>
+                <label for="corner-piece"
+                  >Corner Piece
+                  <input
+                    type="checkbox"
+                    name="corner-piece"
+                    id="corner-piece"
+                    value="Corner Piece"
+                /></label>
+                <label for="reseller"
+                  >Reseller
+                  <input
+                    type="checkbox"
+                    name="reseller"
+                    id="reseller"
+                    value="Resale purpose"
+                /></label>
+              </div>
+              <div class="size d-grid">
+                <p>What plot size interest you?</p>
+                <label for="300sqm"
+                  >300SQM
+                  <input
+                    type="checkbox"
+                    name="300sqm"
+                    id="300sqm"
+                    value="300sqm"
+                /></label>
+                <label for="600sqm"
+                  >600SQM
+                  <input
+                    type="checkbox"
+                    name="600sqm"
+                    id="600sqm"
+                    value="600sqm"
+                /></label>
+              </div>
+              <div class="payment-plan d-grid">
+                <p>Choose a payment plan</p>
+                <label for="full"
+                  >Full payment
+                  <input
+                    type="radio"
+                    name="payment-plan"
+                    id="full"
+                    value="full"
+                /></label>
+                <label for="3-months"
+                  >3 months
+                  <input
+                    type="radio"
+                    name="payment-plan"
+                    id="3-months"
+                    value="3-months"
+                /></label>
+                <label for="6-months"
+                  >6 months
+                  <input
+                    type="radio"
+                    name="payment-plan"
+                    id="6-months"
+                    value="6-months"
+                /></label>
+                <label for="12-months"
+                  >12 months
+                  <input
+                    type="radio"
+                    name="payment-plan"
+                    id="12-months"
+                    value="12-months"
+                /></label>
+                <label for="24-months"
+                  >24 months
+                  <input
+                    type="radio"
+                    name="payment-plan"
+                    id="24-months"
+                    value="24-months"
+                /></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="d-flex">
+            <legend>Next of Kin Details</legend>
+            <label for="kin-name"
+              >Full Name<span class="astericks">*</span></label
+            >
+            <input
+              type="text"
+              name="kin-name"
+              id="kin-name"
+              class="full-width"
+              placeholder="Next of Kin's Full Name"
+            />
+            <label for="mobile-phone"
+              >Mobile phone<span class="astericks">*</span></label
+            >
+            <input
+              type="number"
+              name="mobile-phone"
+              id="mobile-phone"
+              class="full-width"
+              placeholder="Next of Kin's Mobile Phone"
+            />
+            <label for="email">Email address </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="full-width"
+              placeholder="Next of Kin's Email Address"
+            />
+            <label for="kin-address"> Address </label>
+            <textarea
+              class="full-width"
+              placeholder="Next of Kin's Address"
+            ></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Terms And Conditions</legend>
+            <div class="terms d-grid">
+              <p>Tick the boxes to proceed</p>
+              <label for="attestation">
+                <input type="checkbox" name="attestation" id="attestation" />
+                I hereby declare that the personal information provided above
+                are correct as at the time of submission of this form.
+              </label>
+              <label for="purchase-condition">
+                <input
+                  type="checkbox"
+                  name="purchase-condition"
+                  id="purchase-condition"
+                />
+                I have read, understood, and agree to the company's conditions
+                of purchase of land plots
+              </label>
+              <label for="payment-condition">
+                <input
+                  type="checkbox"
+                  name="payment-condition"
+                  id="payment-condition"
+                />
+                I have read, understood, and agree to the company's payment
+                conditions.</label
+              >
+              <label for="default-condition">
+                <input
+                  type="checkbox"
+                  name="default-conditions"
+                  id="default-condition"
+                />
+                I will accepts the company's default penalties if I default to
+                make payment as at when due.
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="d-flex">
+            <legend>Referee Details</legend>
+            <label for="ref-name">Full Name </label>
+            <input
+              type="text"
+              name="ref-name"
+              id="ref-name"
+              class="full-width"
+              placeholder="Referee's Full Name"
+            />
+            <label for="mobile-phone">Mobile phone </label>
+            <input
+              type="number"
+              name="mobile-phone"
+              id="mobile-phone"
+              class="full-width"
+              placeholder="Referee's Mobile Number"
+            />
+          </fieldset>
+          <div class="button-wrapper d-flex">
+            <input type="button" value="Submit" class="submit" />
+            <input type="reset" value="clear" class="clear" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
